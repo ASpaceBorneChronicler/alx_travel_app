@@ -1,0 +1,46 @@
+Django-specific files
+*.log
+*.pot
+*.pyc
+pycache/
+celerybeat-schedule
+celery-worker.pid
+db.sqlite3
+media/
+static/
+
+Environment files
+.env
+.venv/
+venv/
+env/
+my_env/
+/site/
+
+IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+Python-specific files
+*.egg-info
+.coverage
+.tox
+/dist
+/build
+/lib/
+/lib64/
+/include/
+pip-log.txt
+
+OS generated files
+.DS_Store
+Thumbs.db
+
+Deployment artifacts
+ansible-vault.encrypted
+*.crt
+*.key
+
+
